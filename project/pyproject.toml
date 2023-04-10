@@ -8,7 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = "^22.6.0"
 isort = "^5.10.1"
 flake8 = "^4.0.1"
@@ -16,7 +16,7 @@ mypy = "^0.971"
 pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
 pre-commit = "^2.20.0"
-jedi = "^0.18.1"
+debugpy = "^1.6.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
